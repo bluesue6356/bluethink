@@ -1,7 +1,7 @@
 {
-  "name": "thinkjs-application",
-  "description": "application created by thinkjs",
-  "version": "1.0.0",
+  "name": "bluecmf",
+  "description": "基于thinkjs的cmf,致力于用node快速搭建管理平台",
+  "version": "1.0.1",
   "scripts": {
     "start": "node www/development.js",
     "compile": "babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir app/ --source-maps",
@@ -21,5 +21,6 @@
     "babel-core": "6.x.x"
   },
   "repository": "",
+  "author": "cxw(546003877@qq.com)",
   "license": "MIT"
 }

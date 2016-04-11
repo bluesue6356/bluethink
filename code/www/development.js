@@ -1,6 +1,5 @@
 var thinkjs = require('thinkjs');
 var path = require('path');
-
 var rootPath = path.dirname(__dirname);
 
 var instance = new thinkjs({
@@ -8,7 +7,7 @@ var instance = new thinkjs({
   RUNTIME_PATH: rootPath + path.sep + 'runtime',
   ROOT_PATH: rootPath,
   RESOURCE_PATH: __dirname,
-  env: 'development'
+  env: 'development',
 });
 
 //compile src/ to app/

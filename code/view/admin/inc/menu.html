@@ -1,0 +1,41 @@
+<div id="sidebar">
+  <p>
+   <img src="<%= WebInfo.PRODUCT_LOGO %>" />
+  </p>
+  <ul>
+    <li>
+      <dl>
+        <dt><a href="<{:U('Index/main')}>" data-ajax="load"><i class="fa fa-home fa-lg"></i>管理</a></dt>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><i class="fa fa-file-word-o fa-lg"></i>文章</dt>
+        <dd>
+          <div><a href="<{:U('Usershop/index')}>" data-ajax="load">⊙&nbsp;&nbsp;添加文章</a></div>
+          <div><a href="<{:U('Protypea/index?pid=1')}>" data-ajax="load">⊙&nbsp;&nbsp;文章列表</a></div>
+          <div><a href="<{:U('Protypea/index?pid=1')}>" data-ajax="load">⊙&nbsp;&nbsp;分类管理</a></div>
+        </dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><i class="fa fa-group fa-lg"></i>用户</dt>
+        <dd>
+          <div><a href="<{:U('Usershop/index')}>" data-ajax="load">⊙&nbsp;&nbsp;添加用户</a></div>
+          <div><a href="<{:U('Protypea/index?pid=1')}>" data-ajax="load">⊙&nbsp;&nbsp;用户列表</a></div>
+        </dd>
+      </dl>
+    </li>
+    <li>
+      <dl>
+        <dt><i class="fa fa-gear fa-lg"></i>系统</dt>
+        <dd>
+          <div><a href="/admin/sys/config" data-ajax="load">⊙&nbsp;&nbsp;系统配置</a></div>
+          <div><a href="<{:U('Make/index')}>" data-ajax="load">⊙&nbsp;&nbsp;管理员管理</a></div>
+          <div><a href="<{:U('Make/index')}>" data-ajax="load">⊙&nbsp;&nbsp;角色管理</a></div>
+        </dd>
+      </dl>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,13 @@
+<ul class="blue_main_list">
+	<% for(var i = 0; i < list.length; i++) { %>     
+	<li>
+		<a href="{<%= list[i].url %>}" data-ajax="load">
+			<%= list[i].ico %>
+			<p><%= list[i].name %></p>
+		</a>
+	</li>
+	<% } %>
+</ul>
+<%= title %>
+<%= name %>
+

@@ -4,7 +4,7 @@
  * session configs
  */
 export default {
-  name: 'thinkjs',
+  name: 'blueCMF',
   type: 'file',
   secret: 'WY9SQ*GV',
   timeout: 24 * 3600,

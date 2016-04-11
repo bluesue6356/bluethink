@@ -1,0 +1,24 @@
+{
+  "name": "系统",
+  "mname": "admin",
+  "version": "1.0.0",
+  "description": "blueCMF基础系统功能模块",
+  "ico": "fa-gear",
+  "author": "cxw",
+  "s": "0",
+  "controller": 
+    {
+      "index":
+      [
+        {"name":"系统配置","action":"add"},
+        {"name":"管理员管理","action":"index"},
+      ],
+      "main":
+      [
+        {"name":"系统配置","action":"add"},
+        {"name":"管理员管理","action":"index"},
+      ],
+
+    },
+    
+}

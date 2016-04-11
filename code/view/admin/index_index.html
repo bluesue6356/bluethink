@@ -1,0 +1,19 @@
+<%include inc/header.html%>
+<%include inc/menu.html%>
+<div class="mainbox">
+  <div class="header-inner noprint">
+    <ul class="user-tools">
+        <li>欢迎您，<i class="fa fa-user fa-lg mr_5"></i><%=username%>
+          <dl>
+            <dt></dt>
+            <dd><a href="javascript:" data-ajax="mark" >密码修改</a></dd>
+            <dd><a href="/admin/login/index/a/out" data-ajax="mark" data-h="280" data-w="310">退出系统</a></dd>
+          </dl>
+        </li>
+        <li><a href="<{:U('/Index/main')}>" data-ajax="load">后台首页</a></li>
+    </ul>
+    <div class="full" onClick="blue.full(this)"><i class="fa fa-expand fa-lg"></i></div>
+  </div>
+  <div id="mainbox"></div>
+</div>
+<%include inc/footer.html%>

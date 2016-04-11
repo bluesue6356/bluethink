@@ -1,0 +1,22 @@
+<div class="login">
+  <form action="/admin/login" method="post" onsubmit="return blue.ajax_tform(this,function(d){blue.login_ok(d);})">
+    <dl>
+      <dd>
+        <img src="<%= WebInfo.PRODUCT_LOGO %>" height="40">
+      </dd>
+      <dd>
+        <i class="fa fa-user fa-2x"></i>
+        <input type="text" class="full-input" name="name" placeholder="请输入用户名">
+      </dd>
+      <dd>
+       <i class="fa fa-unlock-alt fa-2x"></i>
+       <input type="password" class="full-input" name="pwd" placeholder="请输入密码"></dd>
+      <dd>
+      <button type="submit" style="width:48%;">登  录</button>
+      <button type="reset" style="width:48%;position: absolute;right: 0;background: #008BFF;">重  置</button></dd>
+      <dd style="padding-top: 10px;"><a href="" style="color: #006BE4;">忘记密码？</a><a href="" style="position: absolute;right: 0;">没有账号？点击注册</a>
+      </dd>
+    </dl>
+
+  </form>
+</div>
